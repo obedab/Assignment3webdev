@@ -1,0 +1,88 @@
+
+.checkbox-form-container {
+
+
+  height: 100vh; 
+  background-color: white; 
+  padding: 30px 30px;
+}
+
+.checkbox-form {
+  width: 90%;
+  max-width: 400px;
+  padding: 20px;
+  background-color: white;
+  border: 2px solid #007bff; 
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.form-title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+
+.checkbox-group {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.checkbox-label {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  color: #555;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.checkbox-label:hover {
+  color: #007bff;
+}
+
+.checkbox-input {
+  margin-right: 10px;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.checkbox-input:checked {
+  transform: scale(1.1);
+}
+
+/* Selected Options Title */
+.selected-options-title {
+  font-size: 18px;
+  color: #333;
+  margin-top: 30px;
+}
+
+/* Selected Options List */
+.selected-options-list {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.selected-options-list li {
+  font-size: 16px;
+  color: #444;
+  padding: 5px 0;
+}
+
+.selected-options-list li:first-child {
+  font-style: italic;
+  color: #888;
+}
+
+/* Box Shadow on Hover for the Form */
+.checkbox-form:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
