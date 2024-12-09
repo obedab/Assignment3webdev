@@ -6,6 +6,8 @@ import reportWebVitals from './reportWebVitals';
 import { createBrowserRouter, RouterProvider, } from 'react-router-dom';
 import NotFound from './components/NotFound';
 import About from './pages/About';
+import BlogPost from './pages/BlogPost';
+import ProductDetails from './pages/ProductDetails';
 
 
 
@@ -19,9 +21,19 @@ const rooter = createBrowserRouter([
     path:'/about',
     element:<About/>,
     errorElement:<NotFound/>
-  }
+  },
+  {
+    path:'/BlogPost',
+    element:<BlogPost/>,
+    errorElement:<NotFound/>
+  },{
+    path: '/ProductDetails',
+    element: <ProductDetails />,  
+    errorElement: <NotFound />,
+  },
 
-])
+
+]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

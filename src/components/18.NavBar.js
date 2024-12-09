@@ -20,7 +20,7 @@ const NavBar = () => {
           </NavLink>
         </li>
         <li>
-          <NavLink to="/product" activeClassName="active">
+          <NavLink to="ProductDetails" activeClassName="active">
             Product
           </NavLink>
         </li>
@@ -34,11 +34,8 @@ const NavBar = () => {
             Contact
           </NavLink>
         </li>
-        <li>
-          <NavLink to="/registration" activeClassName="active">
-            Registration
-          </NavLink>
-        </li>
+        
+        
       </ul>
     </nav>
   );

@@ -48,7 +48,7 @@ const StudentForm = () => {
       </div>
 
       <div className="form-group">
-        <label className="form-label">Email:</label>
+        <label className="form-label">Email:*</label>
         <input
           type="email"
           className="form-input"
@@ -59,7 +59,7 @@ const StudentForm = () => {
       </div>
 
       <div className="form-group">
-        <label className="form-label">Student ID:</label>
+        <label className="form-label">Student ID:*</label>
         <input
           type="text"
           className="form-input"
@@ -71,7 +71,7 @@ const StudentForm = () => {
       </div>
 
       <div className="form-group">
-        <label className="form-label">Date of Birth:</label>
+        <label className="form-label">Date of Birth:*</label>
         <input
           type="date"
           className="form-input"

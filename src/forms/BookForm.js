@@ -46,7 +46,7 @@ const BookForm = () => {
       </div>
       <div className="form-group">
         <label className="form-label">
-          ISBN:
+          ISBN:*
           <input
             type="text"
             value={isbn}

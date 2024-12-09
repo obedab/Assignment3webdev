@@ -25,7 +25,7 @@ const ModuleForm = () => {
       <h2 className="form-title">Module Registration</h2>
 
       <div className="form-group">
-        <label className="form-label">Module Name:</label>
+        <label className="form-label">Module Name:*</label>
         <input
           type="text"
           className="form-input"
@@ -36,7 +36,7 @@ const ModuleForm = () => {
       </div>
 
       <div className="form-group">
-        <label className="form-label">Module Code:</label>
+        <label className="form-label">Module Code:*</label>
         <input
           type="text"
           className="form-input"
@@ -57,7 +57,7 @@ const ModuleForm = () => {
       </div>
 
       <div className="form-group">
-        <label className="form-label">Credits:</label>
+        <label className="form-label">Credits:*</label>
         <input
           type="text"
           className="form-input"

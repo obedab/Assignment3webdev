@@ -53,7 +53,7 @@ const DriverForm = () => {
       </div>
       <div className="form-group">
         <label className="form-label">
-          Vehicle Type:
+          Vehicle Type:*
           <select  
             value={vehicleType}
             onChange={(e) => setVehicleType(e.target.value)}
